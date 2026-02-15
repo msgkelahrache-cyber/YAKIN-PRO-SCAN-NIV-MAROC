@@ -49,7 +49,7 @@ export default defineConfig(({ mode }) => {
             // Sépare les grosses librairies dans des fichiers distincts pour optimiser le chargement
             'vendor-react': ['react', 'react-dom'],
             'vendor-ui': ['lucide-react', 'recharts'],
-            'vendor-ai': ['@google/genai']
+            'vendor-ai': ['@google/generative-ai']
           }
         }
       }
